@@ -1,6 +1,6 @@
 {
   "name": "ps-advanced-react",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Advanced React",
   "main": "lib/server.js",
   "repository": "corrni/ps-advanced-react",
