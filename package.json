@@ -1,0 +1,46 @@
+{
+  "name": "ps-advanced-react",
+  "version": "1.0.0",
+  "description": "Advanced React",
+  "main": "lib/server.js",
+  "repository": "corrni/ps-advanced-react",
+  "author": "Bruno Bakundwa <iam@corrni.io>",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": true,
+    "testMatch": [
+      "**/__tests__/**/*(spec|test).js",
+      "**/?(*.)(spec|test).js"
+    ],
+    "testPathIgnorePatterns": [
+      "//node_modules/"
+    ]
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development pm2 start --interpreter babel-node lib/server.js --watch"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.0.1",
+    "eslint": "^4.3.0",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-watch": "^3.1.2",
+    "flow-bin": "^0.51.1",
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "pm2": "^2.6.1"
+  }
+}
