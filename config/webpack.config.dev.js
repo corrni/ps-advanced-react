@@ -4,7 +4,10 @@ const CLIENT_SRC_PATH = path.resolve(__dirname, '../lib/components/index.js');
 const PUBLIC_PATH = path.resolve(__dirname, '../public');
 
 const config = {
-  entry: CLIENT_SRC_PATH,
+  entry: [
+    'babel-polyfill',
+    CLIENT_SRC_PATH
+  ],
 
   output: {
     path: PUBLIC_PATH,
