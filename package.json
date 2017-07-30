@@ -10,16 +10,17 @@
     "testEnvironment": "node",
     "verbose": true,
     "testMatch": [
-      "**/__tests__/**/*(spec|test).js",
+      "**/__tests__/**/*.js",
       "**/?(*.)(spec|test).js"
     ],
     "testPathIgnorePatterns": [
-      "//node_modules/"
+      "/node_modules/"
     ]
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development pm2 start --interpreter babel-node lib/server.js --watch",
-    "webpack": "cross-env NODE_ENV=development webpack --config config/webpack.config.dev.js -wd"
+    "webpack": "cross-env NODE_ENV=development webpack --config config/webpack.config.dev.js -wd",
+    "test": "jest --watch"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
@@ -33,6 +34,7 @@
     "eslint-watch": "^3.1.2",
     "flow-bin": "^0.51.1",
     "jest": "^20.0.4",
+    "jest-cli": "^20.0.4",
     "webpack": "^3.4.1",
     "webpack-dev-middleware": "^1.11.0",
     "webpack-hot-middleware": "^2.18.2"
