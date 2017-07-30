@@ -18,7 +18,8 @@
     ]
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development pm2 start --interpreter babel-node lib/server.js --watch"
+    "dev": "cross-env NODE_ENV=development pm2 start --interpreter babel-node lib/server.js --watch",
+    "webpack": "cross-env NODE_ENV=development webpack --config config/webpack.config.dev.js -wd"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
