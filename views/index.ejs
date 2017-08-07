@@ -7,8 +7,8 @@
   <title>Advanced React App Example</title>
 </head>
 <body>
-  <div id="root"><%- initialContent -%></div>
-
+  <div id="root"><%- initialMarkup -%></div>
+  <script>window.__INITIAL_DATA__ = <%- JSON.stringify(initialData) -%>;</script>
   <script src="bundle.js"></script>
 </body>
 </html>
