@@ -18,7 +18,7 @@
     ]
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development pm2 start --interpreter babel-node lib/server.js --watch --ignore-watch=\"lib/components\"",
+    "dev": "cross-env NODE_ENV=development nodemon --config config/nodemon.json lib/server.js",
     "webpack": "cross-env NODE_ENV=development webpack --config config/webpack.config.dev.js -wd",
     "test": "jest --watch"
   },
@@ -43,6 +43,7 @@
     "flow-bin": "^0.51.1",
     "jest": "^20.0.4",
     "jest-cli": "^20.0.4",
+    "nodemon": "^1.11.0",
     "react-test-renderer": "^15.6.1",
     "webpack": "^3.4.1",
     "webpack-dev-middleware": "^1.11.0",
