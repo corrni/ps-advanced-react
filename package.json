@@ -18,7 +18,7 @@
     ]
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development pm2 start --interpreter babel-node lib/server.js --watch",
+    "dev": "cross-env NODE_ENV=development pm2 start --interpreter babel-node lib/server.js --watch --ignore-watch=\"lib/components\"",
     "webpack": "cross-env NODE_ENV=development webpack --config config/webpack.config.dev.js -wd",
     "test": "jest --watch"
   },
