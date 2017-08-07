@@ -18,7 +18,7 @@
     ]
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon --config config/nodemon.json lib/server.js",
+    "dev": "cross-env NODE_PATH=./lib NODE_ENV=development nodemon --config config/nodemon.json lib/server.js",
     "webpack": "cross-env NODE_ENV=development webpack --config config/webpack.config.dev.js -wd",
     "test": "jest --watch"
   },

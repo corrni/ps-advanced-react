@@ -8,3 +8,4 @@ node_modules/react-dom
 [libs]
 
 [options]
+module.system.node.resolve_dirname=lib
