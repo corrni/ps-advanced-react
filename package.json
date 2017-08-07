@@ -50,6 +50,8 @@
     "webpack-hot-middleware": "^2.18.2"
   },
   "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.16.2",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
     "babel-polyfill": "^6.23.0",
