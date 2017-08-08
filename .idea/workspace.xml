@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list id="5e9ab314-049c-4fc7-9e97-aa060c7b029b" name="Housekeeping" comment="More webstorm files..." />
     <list default="true" id="3796eb61-cd64-488c-ad3c-af2b9e6cbae1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ps-advanced-react.iml" afterPath="$PROJECT_DIR$/.idea/ps-advanced-react.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/components/__tests__/ArticleList.test.js" afterPath="$PROJECT_DIR$/lib/components/__tests__/ArticleList.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/components/__tests__/__snapshots__/ArticleList.test.js.snap" afterPath="$PROJECT_DIR$/lib/components/__tests__/__snapshots__/ArticleList.test.js.snap" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +20,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ArticleList.test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/components/__tests__/ArticleList.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -62,8 +72,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="643" />
-    <option name="width" value="633" />
+    <option name="x" value="541" />
+    <option name="width" value="735" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -134,7 +144,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/eslint" />
-    <property name="SearchEverywhereHistoryKey" value="esli&#9;null&#9;null&#10;ar&#9;FILE&#9;file:///Users/corrni/fso/react/ps-advanced-react/lib/components/ArticleList.js&#10;a&#9;FILE&#9;file:///Users/corrni/fso/react/ps-advanced-react/lib/components/Article.js&#10;arti&#9;FILE&#9;file:///Users/corrni/fso/react/ps-advanced-react/lib/components/Article.js&#10;sta&#9;null&#9;null&#10;app&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="test&#9;FILE&#9;file:///Users/corrni/fso/react/ps-advanced-react/lib/components/__tests__/ArticleList.test.js&#10;esli&#9;null&#9;null&#10;ar&#9;FILE&#9;file:///Users/corrni/fso/react/ps-advanced-react/lib/components/ArticleList.js&#10;a&#9;FILE&#9;file:///Users/corrni/fso/react/ps-advanced-react/lib/components/Article.js&#10;arti&#9;FILE&#9;file:///Users/corrni/fso/react/ps-advanced-react/lib/components/Article.js&#10;sta&#9;null&#9;null&#10;app&#9;null&#9;null" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
   </component>
   <component name="RunDashboard">
@@ -149,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.ArticleList">
+  <component name="RunManager" selected="Jest.ArticleList.renders correctly">
     <configuration name="ArticleList" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
@@ -242,8 +252,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Jest.ArticleList" />
-        <item index="1" class="java.lang.String" itemvalue="Jest.ArticleList.renders correctly" />
+        <item index="0" class="java.lang.String" itemvalue="Jest.ArticleList.renders correctly" />
+        <item index="1" class="java.lang.String" itemvalue="Jest.ArticleList" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +273,7 @@
       <updated>1502214473806</updated>
       <workItem from="1502214480800" duration="206000" />
       <workItem from="1502214732844" duration="8659000" />
-      <workItem from="1502229017727" duration="112000" />
+      <workItem from="1502229017727" duration="721000" />
     </task>
     <task id="LOCAL-00001" summary="Switching to Webstorm">
       <created>1502215122846</created>
@@ -314,37 +324,62 @@
     <history-entry file="ArticleList - 2017.08.08 at 23h 03m 35s.xml">
       <configuration name="ArticleList" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="ArticleList - 2017.08.09 at 00h 01m 13s.xml">
+      <configuration name="ArticleList" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ArticleList - 2017.08.09 at 00h 01m 48s.xml">
+      <configuration name="ArticleList" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
     <history-entry file="ArticleList_renders_correctly - 2017.08.08 at 23h 02m 38s.xml">
+      <configuration name="ArticleList.renders correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ArticleList_renders_correctly - 2017.08.08 at 23h 57m 29s.xml">
+      <configuration name="ArticleList.renders correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ArticleList_renders_correctly - 2017.08.08 at 23h 59m 44s.xml">
+      <configuration name="ArticleList.renders correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ArticleList_renders_correctly - 2017.08.09 at 00h 00m 40s.xml">
+      <configuration name="ArticleList.renders correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ArticleList_renders_correctly - 2017.08.09 at 00h 00m 50s.xml">
+      <configuration name="ArticleList.renders correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ArticleList_renders_correctly - 2017.08.09 at 00h 02m 01s.xml">
+      <configuration name="ArticleList.renders correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ArticleList_renders_correctly - 2017.08.09 at 00h 02m 38s.xml">
       <configuration name="ArticleList.renders correctly" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8977000" />
+    <option name="totallyTimeSpent" value="9586000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="643" y="0" width="633" height="800" extended-state="0" />
+    <frame x="541" y="0" width="735" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3761194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3708791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Flow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3761194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Flow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282967" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,6 +419,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="e#9#35#0" expanded="false" />
+            <element signature="e#137#485#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -391,6 +430,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -426,13 +466,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-152">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/components/__tests__/ArticleList.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -440,6 +474,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="e#9#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/components/__tests__/ArticleList.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
