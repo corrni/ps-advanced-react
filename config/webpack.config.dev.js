@@ -1,8 +1,15 @@
 const path = require('path');
+const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
 
 const CLIENT_SRC_PATH = path.resolve(__dirname, '../lib/renderers/dom.js');
 const PUBLIC_PATH = path.resolve(__dirname, '../public');
+
+const plugins = [
+  new webpack.HotModuleReplacementPlugin(),
+  new webpack.NoEmitOnErrorsPlugin(),
+  new webpack.LoaderOptionsPlugin({ debug: true }),
+];
 
 const config = {
   resolve: {
@@ -13,13 +20,16 @@ const config = {
   },
 
   entry: [
+    'react-hot-loader/patch',
+    'webpack-hot-middleware/client',
     'babel-polyfill',
     CLIENT_SRC_PATH
   ],
 
   output: {
     path: PUBLIC_PATH,
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/',
   },
 
   module: {
@@ -61,7 +71,11 @@ const config = {
         ],
       },
     ]
-  }
+  },
+
+  devtool: 'cheap-module-eval-source-map',
+
+  plugins,
 };
 
 module.exports = config;
