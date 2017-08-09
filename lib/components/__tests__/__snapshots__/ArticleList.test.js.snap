@@ -15,21 +15,11 @@ ShallowWrapper {
                 "id": "a",
               }
         }
-        store={
-            Object {
-                "lookupAuthor": [Function],
-              }
-        }
     />
     <Article
         article={
             Object {
                 "id": "d",
-              }
-        }
-        store={
-            Object {
-                "lookupAuthor": [Function],
               }
         }
     />
@@ -42,21 +32,11 @@ ShallowWrapper {
                         "id": "a",
                       }
             }
-            store={
-                  Object {
-                        "lookupAuthor": [Function],
-                      }
-            }
       />
       <Article
             article={
                   Object {
                         "id": "d",
-                      }
-            }
-            store={
-                  Object {
-                        "lookupAuthor": [Function],
                       }
             }
       />
@@ -131,21 +111,11 @@ ShallowWrapper {
                                         "id": "a",
                                       }
                     }
-                    store={
-                              Object {
-                                        "lookupAuthor": [Function],
-                                      }
-                    }
           />
           <Article
                     article={
                               Object {
                                         "id": "d",
-                                      }
-                    }
-                    store={
-                              Object {
-                                        "lookupAuthor": [Function],
                                       }
                     }
           />
@@ -158,21 +128,11 @@ ShallowWrapper {
                                         "id": "a",
                                       }
                     }
-                    store={
-                              Object {
-                                        "lookupAuthor": [Function],
-                                      }
-                    }
           />
           <Article
                     article={
                               Object {
                                         "id": "d",
-                                      }
-                    }
-                    store={
-                              Object {
-                                        "lookupAuthor": [Function],
                                       }
                     }
           />
