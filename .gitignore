@@ -57,8 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
-# Public assets
-public
+# webpack-generated
+public/bundle.js
 
 # Created by https://www.gitignore.io/api/jetbrains
 
@@ -125,4 +125,3 @@ fabric.properties
 .idea/sonarlint
 
 # End of https://www.gitignore.io/api/jetbrains
-!/public/cmp_article.css

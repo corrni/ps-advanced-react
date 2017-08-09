@@ -1,0 +1,24 @@
+/* Article component */
+
+.Article__article {
+  padding-bottom: 10px;
+  border-bottom: solid #aaa 1px;
+  margin-bottom: 10px;
+}
+
+.Article__title {
+  font-weight: bold;
+}
+
+.Article__date {
+  font-size: 0.85em;
+}
+
+.Article__author {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Article__body {
+  padding-left: 20px;
+}
