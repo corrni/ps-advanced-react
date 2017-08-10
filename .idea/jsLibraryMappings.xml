@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{angular-xeditable-DefinitelyTyped, enzyme-DefinitelyTyped, express-DefinitelyTyped, jasmine-DefinitelyTyped, jest-DefinitelyTyped, jest-matchers-DefinitelyTyped, ps-advanced-react/node_modules, webpack-DefinitelyTyped, webpack-dev-middleware-DefinitelyTyped, webpack-hot-middleware-DefinitelyTyped}" />
+    <includedPredefinedLibrary name="Node.js Core" />
+  </component>
+</project>

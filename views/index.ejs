@@ -4,11 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/fa/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bulma/bulma.css">
+  <link rel="stylesheet" href="css/cmp_article.css">
   <title>Advanced React App Example</title>
 </head>
 <body>
-  <div id="root"><%- initialContent -%></div>
+  <section class="section">
+    <div class="container is-fluid" id="root"><%- initialMarkup -%></div>
+  </section>
 
+  <script>
+    window.__INITIAL_DATA__ = <%- JSON.stringify(initialData) -%>;
+    window.__INITIAL_TIMESTAMP__ = <%- JSON.stringify(initialTimestamp) -%>;
+  </script>
   <script src="bundle.js"></script>
 </body>
 </html>

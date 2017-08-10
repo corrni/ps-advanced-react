@@ -4,9 +4,7 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:flowtype/recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings"
+    "plugin:flowtype/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": 7,
