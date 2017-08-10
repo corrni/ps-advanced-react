@@ -2,8 +2,10 @@ const path = require('path');
 const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
 
+
 const CLIENT_SRC_PATH = path.resolve(__dirname, '../lib/renderers/dom.js');
 const PUBLIC_PATH = path.resolve(__dirname, '../public');
+const {host, port} = require('../config/server');
 
 const plugins = [
   // HMR
@@ -23,7 +25,7 @@ const config = {
   entry: [
     'babel-polyfill',
     'react-hot-loader/patch',
-    'webpack-hot-middleware/client?reload=true',
+    `webpack-hot-middleware/client?http://${host}:${port}`,
     CLIENT_SRC_PATH
   ],
 

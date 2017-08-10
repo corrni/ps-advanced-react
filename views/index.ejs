@@ -14,7 +14,10 @@
     <div class="container is-fluid" id="root"><%- initialMarkup -%></div>
   </section>
 
-  <script>window.__INITIAL_DATA__ = <%- JSON.stringify(initialData) -%></script>
+  <script>
+    window.__INITIAL_DATA__ = <%- JSON.stringify(initialData) -%>;
+    window.__INITIAL_TIMESTAMP__ = <%- JSON.stringify(initialTimestamp) -%>;
+  </script>
   <script src="bundle.js"></script>
 </body>
 </html>
