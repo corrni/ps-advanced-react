@@ -1,4 +1,4 @@
-// flow-typed signature: 6eecc2a00a36b4ef1fcbd62201fffec1
+// flow-typed signature: 9212cc33fd30355181e6e72fef65fc63
 // flow-typed version: <<STUB>>/webpack_v^3.4.1/flow_v0.51.1
 
 /**
@@ -371,6 +371,14 @@ declare module 'webpack/lib/dependencies/ImportParserPlugin' {
 }
 
 declare module 'webpack/lib/dependencies/ImportPlugin' {
+  declare module.exports: any;
+}
+
+declare module 'webpack/lib/dependencies/ImportWeakContextDependency' {
+  declare module.exports: any;
+}
+
+declare module 'webpack/lib/dependencies/ImportWeakDependency' {
   declare module.exports: any;
 }
 
@@ -1366,6 +1374,12 @@ declare module 'webpack/lib/dependencies/ImportParserPlugin.js' {
 }
 declare module 'webpack/lib/dependencies/ImportPlugin.js' {
   declare module.exports: $Exports<'webpack/lib/dependencies/ImportPlugin'>;
+}
+declare module 'webpack/lib/dependencies/ImportWeakContextDependency.js' {
+  declare module.exports: $Exports<'webpack/lib/dependencies/ImportWeakContextDependency'>;
+}
+declare module 'webpack/lib/dependencies/ImportWeakDependency.js' {
+  declare module.exports: $Exports<'webpack/lib/dependencies/ImportWeakDependency'>;
 }
 declare module 'webpack/lib/dependencies/LoaderDependency.js' {
   declare module.exports: $Exports<'webpack/lib/dependencies/LoaderDependency'>;
